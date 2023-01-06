@@ -173,6 +173,8 @@
   height: 200px;
   border: 0;
   border-radius: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-bottom: 130px;
 }
 .updates input,
@@ -183,17 +185,16 @@
   padding: 8px 0 8px 3px;
 }
 .updates .btn-subscribe {
-  margin-left: 0;
-  padding: 8px 6px;
+  margin-left: -4px ;
+  padding: 10px 6px;
   border: 0;
   background: #ff5959;
-  border-radius: 5px;
   color: #ffffff;
 }
 /* footer */
 .footer{
   text-align: center;
-  height: 80px ;
+  height:90px ;
   border: 0;
   background: #0B0D17;
   
@@ -202,7 +203,7 @@
   font-weight: 400;
   font-size: 25px;
   color: #FF5959;
-  margin: 42px 0 24px 0;
+  padding-top: 20px;
 }
 .footer-description{
   margin-top: 10px;
