@@ -8,7 +8,6 @@
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position:top; */
   background-color: gray;
   background-blend-mode: multiply;
   border: 0;
@@ -21,19 +20,12 @@
 .title {
   font-weight: 700;
   font-size: 65px;
-  line-height: 79px;
+
   text-align: center;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.sub-title {
-  font-weight: 700;
-  font-size: 65px;
-  line-height: 79px;
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
+
 .description {
   font-weight: 500;
   font-size: 16px;
@@ -185,29 +177,70 @@
   padding: 8px 0 8px 3px;
 }
 .updates .btn-subscribe {
-  margin-left: -4px ;
+  margin-left: -4px;
   padding: 10px 6px;
   border: 0;
   background: #ff5959;
   color: #ffffff;
 }
 /* footer */
-.footer{
+.footer {
   text-align: center;
-  height:90px ;
+  height: 90px;
   border: 0;
-  background: #0B0D17;
-  
+  background: #0b0d17;
 }
-.footer-title{
+.footer-title {
   font-weight: 400;
   font-size: 25px;
-  color: #FF5959;
+  color: #ff5959;
   padding-top: 20px;
 }
-.footer-description{
+.footer-description {
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
-  color: #D9DBE1;
+  color: #d9dbe1;
+}
+
+/* responsive design */
+@media screen and (max-width: 576px) {
+  .header {
+    height: 100vh;
+    width: 100vw;
+  }
+  .container,
+  .sect-cont-amount,
+  .plan-section-container,
+  .extra-second {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title,
+  .section-title,
+  .section-title {
+    font-size: 30px;
+    margin: 15px auto;
+    padding: 0;
+  }
+  .description,
+  .section-description,
+  .section-description {
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  .sect-cont-extra-amount {
+    font-size: 20px;
+  }
+  .section-horizontal {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .extra-first {
+    flex-direction: column-reverse;
+  }
 }
